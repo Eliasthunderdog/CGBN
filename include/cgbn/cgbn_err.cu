@@ -21,6 +21,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 
 ***/
+#include "cgbn_err.h"
 
 cudaError_t cgbn_error_report_alloc(cgbn_error_report_t **report) {
   cudaError_t status;

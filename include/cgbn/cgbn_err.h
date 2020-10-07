@@ -1,6 +1,8 @@
 #ifndef CGBN_ERR_H_
 #define CGBN_ERR_H_
 
+#include <inttypes.h>
+
 typedef enum {
   cgbn_no_error=0,
   cgbn_unsupported_threads_per_instance=1,
